@@ -1,0 +1,39 @@
+.panel-label-and-message .label-container {
+	text-align: right;
+	padding: 0 2px 0 0 !important;
+}
+
+.panel-label-and-message .content-container {
+	text-align: left;
+	padding: 0;
+}
+
+.panel-label-and-message .label {
+	font-size: 8pt;
+}
+
+.panel-label-and-message .label.error {
+	color: #CC0000;
+	font-style: italic;
+}
+
+.panel-label-and-message .label.req-indicator {
+	color: #F07E38;
+	font-weight: bold;
+}
+
+.panel-label-and-message .help-container,.panel-label-and-message .error-message
+	{
+	font-family: Arial, sans-serif;
+	font-size: 7pt;
+	font-weight: normal;
+}
+
+.panel-label-and-message .help-container {
+	padding: 0;
+	color: #046381;
+}
+
+.panel-label-and-message .error-message {
+	color: #CC0000;
+}

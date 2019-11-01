@@ -1,0 +1,9 @@
+.modal-content{
+  margin-left: 18%;
+  width: 280px;
+  justify-items: center;
+}
+
+.modal-footer{
+  justify-content: center;
+}

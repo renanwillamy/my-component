@@ -1,0 +1,32 @@
+.modal-dialog {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%) !important;
+}
+
+.modal-header {
+  background: #949599;
+  color: white;    
+}
+
+.modal-title {
+  font-size: 1.6em !important;
+  font-weight: bolder !important;
+  text-transform: uppercase !important;
+  font-family: "Source Sans Pro Light";
+}
+
+.modal-content .modal-body{
+  font-size: 18px !important;  
+  text-align: center;
+  font-family: "Source Sans Pro Light";
+  font-weight: bold !important;
+}
+
+.modal-content {
+  width: 500px !important;
+}
+
+.modal-content button {
+  padding: 5px 10px !important;
+}

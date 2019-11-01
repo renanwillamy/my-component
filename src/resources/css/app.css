@@ -1,0 +1,153 @@
+
+.p-growl-message-info {
+    background: #5e5e5e !important ;
+}
+
+.p-growl-image {
+    color: white !important;
+}
+
+.p-growl-title {
+    color: white !important;
+}
+
+.p-growl-message {
+    color: white !important;
+}
+
+.p-growl-icon-close {
+    color: white !important;
+}
+
+.list-page {
+    min-height: 68vh;
+}
+
+.local-list-page {
+    min-width: 360px;
+}
+
+.form-submit {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+.form-button {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.backflush-consumption-register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.backflush-consumption-register > div {
+    width: fit-content;
+    margin: 0px 50px;
+}
+
+.backflush-consumption-register > button {
+    transform: translateY(10px);
+}
+
+.custom-button:disabled {
+    opacity: 0.35;
+    cursor: default;
+}
+
+.modal-backflush-consumption {
+    width: unset !important;
+    max-width: 90%;
+    top: 30%
+}
+
+.modal-backflush-consumption > div {
+    margin-left: unset;
+    width: unset;
+}
+
+.backflush-production-form {
+    display: table;
+    margin: auto;
+    width: 750px;
+}
+
+.backflush-production-form > div {
+    display: inline-block;
+    width: 250px;
+}
+
+.backflush-production-form > div > input {
+    width: 195px;
+}
+
+.backflush-production-form > div > div {
+    position: absolute;
+    width: 195px;
+}
+
+.backflush-production-submit {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5%;
+}
+
+.p-treetable-thead > tr > th {
+    border: 0px !important;
+    background-color: #7e8c8f !important;
+    text-transform: uppercase
+}
+
+.p-treetable-tbody > tr {
+    background: #dedede !important;
+    color: black !important;
+}
+
+.p-treetable-tbody > tr > td {
+    border: 0px !important;
+    text-align: center
+}
+
+.p-treetable-tbody > tr > td:nth-child(1) {
+    text-align: left
+}
+
+.p-treetable-tbody > tr:nth-child(even) {
+    background: white !important;
+}
+
+.modal-body {
+    font-size: 1em !important;
+}
+
+.wms-table-header {
+    background-color: #7e8c8f;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: default;
+    font-size: 0.95em;
+    font-family: "Source Sans Pro";
+}
+
+.wms-table-header input {
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25) !important;
+}
+
+.wms-table-row > tr {
+    background: #ededed;
+    color: #333333;
+    font-size: 0.95em;
+    cursor: default;
+}
+
+.wms-table-row > tr:nth-child(odd) {
+    background: #ffffff;
+}
+
+.wms-table-row input {
+    margin: auto
+}

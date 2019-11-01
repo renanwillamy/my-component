@@ -1,0 +1,60 @@
+.btn-group-paginator{
+    margin: 0;padding: 2px;text-align: center;
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;border: 0 none !important;
+    font-weight: normal !important;border-top: 0 none;
+    display: inline-flex !important;
+}
+
+.style-seek-first {
+    height:25px;background:#e6e6e6 !important;border: 1px solid #bcbdbe;
+    border-radius: 0;margin-right: 5px !important;border-radius: 0 !important;
+    box-shadow: none !important;font-family:\'Source Sans Pro\'!important;
+    font-size:14.256px;font-weight: normal !important;display: inline-block;
+    margin-left: 1px;margin-right: 1px;outline: medium none;padding: 0 6px;
+    text-decoration: none;
+}
+
+.style-center {
+    height:25px;background:#e6e6e6 !important ;border: 1px solid #bcbdbe;
+    border-radius: 0;margin-right: 5px !important;border-radius: 0 !important;
+    box-shadow: none !important;font-family:\'Source Sans Pro\'!important;font-size:14.256px;
+    font-weight: normal !important;display: inline-block;margin-left: 1px;margin-right: 1px;
+    outline: medium none;padding: 0 6px;text-decoration: none
+}
+
+.btn-group :hover{
+    background: #bcbdbe !important;
+}
+
+.gray-background {
+    background: #bcbdbe !important;
+}
+
+.style-seek-prev {
+    height:25px;background:#e6e6e6 !important ;border: 1px solid #bcbdbe;border-radius: 0;
+    margin-right: 5px !important;border-radius: 0 !important;box-shadow: none !important;
+    font-family:\'Source Sans Pro\'!important;font-size:14.256px;
+    font-weight: normal !important;display: inline-block;margin-left: 1px;
+    margin-right: 1px;outline: medium none;padding: 0 6px;text-decoration: none
+}
+
+.style-seek-next {
+    height:25px;background:#e6e6e6 !important ;border: 1px solid #bcbdbe;border-radius: 0;
+    margin-right: 5px !important;border-radius: 0 !important;box-shadow: none !important;
+    font-family:\'Source Sans Pro\'!important;font-size:14.256px;font-weight: normal !important;
+    display: inline-block;margin-left: 1px;margin-right: 1px;outline: medium none;
+    padding: 0 6px;text-decoration: none;
+}
+
+.style-seek-end {
+    height:25px;background:#e6e6e6 !important;border: 1px solid #bcbdbe;border-radius: 0;
+    margin-right: 5px !important;border-radius: 0 !important;box-shadow: none !important;
+    font-family:\'Source Sans Pro\'!important;font-size:14.256px;font-weight: normal !important;
+    display: inline-block;margin-left: 1px;margin-right: 1px;outline: medium none;padding: 0 6px;
+    text-decoration: none;
+}
+
+
+.disabled {
+    opacity: 0.4;
+}

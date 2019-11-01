@@ -1,0 +1,110 @@
+/* ----------------- 
+	HANDHELD
+--------------------*/
+.handheld_label {
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+.size_component {
+	font-size: 8pt;
+	margin-left: -19px;
+}
+
+.panel_hand_held {
+	max-width: 240px;
+	height: 320px;
+	margin: 0 auto 20px;
+	border: 1px solid #e5e5e5;
+	background-color: #FFFFFF;
+	font-size: 8pt !important;
+}
+
+.panel_hand_held_message_login {
+	max-width: 240px;
+	margin: 0 auto 20px;
+	margin-top: -250px;
+	font-size: 8pt !important;
+}
+
+.panel_hand_held input {
+	font-size: 8.5pt;
+}
+
+.panel_hand_held select {
+	font-size: 8.5pt;
+}
+
+.ui-button-handheld {
+	width: 140px;
+	height: 25px;
+}
+
+.order-table {
+	border-collapse: separate;
+	border-left-color: #BBBBBB;
+}
+
+.order-table-header {
+	text-align: center;
+	background: none repeat scroll 0 0 #E5E5E5;
+	border-bottom: 1px solid #BBBBBB;
+	padding: 4px;
+	font-size: 8pt;
+}
+
+.order-table-odd-row {
+	text-align: center;
+	background: none repeat scroll 0 0 #E9E9E9;
+	border-top: 1px solid #BBBBBB;
+	font-size: 8.5pt;
+}
+
+.order-table-even-row {
+	text-align: center;
+	background: none repeat scroll 0 0 #E9E9E9;
+	border-top: 1px solid #BBBBBB;
+	font-size: 8.5pt;
+}
+
+.wms_dialog_main {
+	background: white;
+	border: 1px solid #e5e5e5;
+	overflow: auto;
+	z-index: 1001;
+	max-width: 230px;
+}
+
+.wms_dialog_header {
+	border: 1px solid #e5e5e5;
+	margin: 5px;
+	font-weight: bold;
+	font-size: 10px;
+}
+
+.wms_dialog_content {
+	margin: 10px;
+	text-align: center;
+}
+
+.wms_dialog_buttons {
+	text-align: center;
+	margin: 5px;
+}
+
+.wms_dialog_buttons button, .wms_dialog_buttons input {
+	margin-right: 5px;
+}
+
+.opacity40, .wms_dialog_modal {
+	background-color: black;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+	filter: alpha(opacity =       40);
+	-moz-opacity: 0.4;
+	-khtml-opacity: 0.4;
+	opacity: 0.4;
+}
+
+.wms_dialog_modal {
+	z-index: 1000;
+}

@@ -1,0 +1,686 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16/07/2014, 09:37:35
+    Author     : LrCosta
+*/
+
+@font-face {font-family:"wms-glyphicons";src:url("#{facesContext.externalContext.requestContextPath}/resources/assets/font/wms-glyphicons.eot") format("eot"),url("#{facesContext.externalContext.requestContextPath}/resources/assets/font/wms-glyphicons.woff") format("woff"),url("#{facesContext.externalContext.requestContextPath}/resources/assets/font/wms-glyphicons.ttf") format("truetype"),url("#{facesContext.externalContext.requestContextPath}/resources/assets/font/wms-glyphicons.svg") format("svg");font-weight:normal;font-style:normal;}
+
+/*==================================================================== Inputs */
+.ui-inputfield.ui-inputtext.ui-widget.ui-state-default.ui-corner-all{
+    border-radius: 0px !important;
+    box-shadow: none !important;
+}
+
+.ui-inputfield.ui-password.ui-widget.ui-state-default.ui-corner-all{
+    border-radius: 0px !important;
+    box-shadow: none !important;
+}
+
+.ui-widget.input,.ui-widget.select,.ui-widget.textarea,.ui-widget.button,.ui-button-text{
+    font-family: "Source Sans Pro";
+}
+
+.login-form .form-group .input-group .input-group-addon {
+    background-color: #fff;
+    border: none;
+}
+
+.input-group-addon {
+    padding: 0px !important;
+    background-color: #fff !important;
+    border-radius: 0px !important;
+}
+
+.ui-widget {
+    font-family: "Source Sans Pro";
+}
+
+.ui-datatable .ui-column-filter {
+    display: inline !important;
+    margin: auto 10px !important;
+}
+
+.ui-widget-content .ui-inputfield {
+    height: 25px;
+    padding-top: 0px;
+
+}
+
+.form-group .input-group .ui-inputfield {
+    height: 30px;
+}
+
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
+    background-color: #75C045;
+    background-image: linear-gradient(to bottom, #75C045, #75C045);
+    color: #ffffff;
+}
+
+/*================================================================ END Inputs */
+/*=================================================================== Buttons */
+.ui-button.ui-widget.ui-state-default.ui-corner-all{
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #75C045;
+    border-radius: 0px;
+    box-shadow: 1px 1px 1px #7a9d3e;
+    -moz-box-shadow: 1px 1px 1px #7a9d3e;
+    -webkit-box-shadow: 1px 1px 1px #7a9d3e;
+}
+
+.ui-button.ui-widget.ui-state-default.ui-corner-all:hover{
+    background-color: #000;
+}
+.ui-widget.button{
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #75C045;
+    border-radius: 0px;
+    box-shadow: 1px 1px 1px #7a9d3e;
+    -moz-box-shadow: 1px 1px 1px #7a9d3e;
+    -webkit-box-shadow: 1px 1px 1px #7a9d3e;
+}
+
+.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only {
+    border-radius: 0px;
+}
+
+.ui-datatable .ui-sortable-column-icon {
+    background-image: none !important;
+    margin: 0px;
+}
+
+.ui-sortable-column-icon.ui-icon.ui-icon-carat-2-n-s{
+	background-image: none !important;
+}
+
+.ui-sortable-column-icon.ui-icon.ui-icon-carat-2-n-s.ui-icon-triangle-1-n{
+	background-image: none !important;
+}
+
+.ui-sortable-column-icon.ui-icon.ui-icon-carat-2-n-s.ui-icon-triangle-1-s{
+	background-image: none !important;
+}
+
+.ui-sortable-column-icon.ui-icon.ui-icon-carat-2-n-s::before
+	{
+	font-family: "wms-glyphicons";
+	content: "\e84e";
+}
+
+.ui-sortable-column-icon.ui-icon.ui-icon-carat-2-n-s.ui-icon-triangle-1-n::before
+	{
+	font-family: "wms-glyphicons";
+	content: "\e828";
+}
+
+.ui-sortable-column-icon.ui-icon.ui-icon-carat-2-n-s.ui-icon-triangle-1-s::before
+	{
+	font-family: "wms-glyphicons";
+	content: "\e825";
+}
+
+.ui-sortable-column-icon.ui-icon {
+	text-indent: inherit !important;
+}
+
+.ui-treetable-data .ui-widget-content button span{
+    display: none !important;
+}
+
+.ui-treetable-data .ui-widget-content button{
+    padding: 0 !important;
+    height: 30px;
+    width: 30px;
+    margin-right: 5px !important;
+}
+
+.ui-datatable-data .ui-widget-content button span{
+    display: none !important;
+}
+
+.ui-datatable-data .ui-widget-content button{
+    padding: 0 !important;
+    height: 30px;
+    width: 30px;
+    margin-right: 5px !important;
+}
+
+.ui-button {
+    margin-right: 0.1em !important;
+    background-image: none !important;
+}
+
+/*=================== check-box */
+
+ .ui-chkbox-box.ui-widget.ui-corner-all.ui-state-default {
+    background: #fff;
+    border: 1px solid #bcbdbe;
+    border-radius: 0px;
+    margin-right: 5px !important;
+}
+
+.ui-chkbox-box.ui-widget.ui-corner-all.ui-state-default.ui-state-hover {
+    background: #f2f2f2;
+}
+
+
+.ui-state-highlight .ui-icon {
+    background-image: url("/wms/javax.faces.resource/images/ui-icons_333333_256x240.png.jsf?ln=primefaces-bootstrap") !important;
+}
+
+.ui-chkbox .ui-chkbox-box {
+    height: 16px !important;
+}
+
+td.selectionDisabled .ui-chkbox{
+	display: none;
+}
+
+/*=================== END check-box */
+
+/*=================== Radio Button */
+.ui-radiobutton{
+    margin-right: 5px !important;
+    margin-left: 10px !important;
+}
+
+
+.ui-radiobutton .ui-radiobutton-box {
+    border-radius: 10px !important;
+}
+
+.ui-icon-bullet {
+    background-position: -80px -145px !important;
+}
+
+/*=================== END Radio Button */
+/*=================== Select Button */
+.ui-selectonemenu .ui-selectonemenu-trigger {
+    padding: 3px !important;
+}
+
+.ui-selectonemenu-label{
+    line-height: 27px !important;
+}
+/*=================== END Select Button */
+
+span .ui-button-icon-left.ui-icon.ui-c.ui-icon-plusthick{
+    display: none !important;
+}
+
+.ui-button-text-icon-left .ui-button-text {
+    padding: .4em 1em .4em 1.1em !important;
+}
+
+/*span .ui-button-text{
+    width: 25px;
+    height: 30px;
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+}*/
+
+button.ui-button.ui-widget.ui-state-default.ui-corner-right.ui-button-icon-only{
+    width: 26px !important;
+    height: 31px !important;
+}
+
+.ui-button-icon-only .ui-button-text {
+    padding-top: 0 !important;
+}
+
+.ui-picklist .ui-button {
+    margin-left: .5em;
+    margin-right: .5em !important;
+}
+/*=============================================================== END Buttons */
+/*===================================================================== Panel */
+.ui-panel-title{
+    text-transform: uppercase;
+    font-family: "Source Sans Pro Light";
+    font-size: 1.3em;
+}
+
+.ui-panel-titlebar.ui-widget-header.ui-helper-clearfix.ui-corner-all{
+    /* padding: 29px 130px; */
+    margin: 0px;
+    border-radius: 0px;
+    background-color: #fff;
+    color: #5e6b6c;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-image: none;
+    border-image: none;
+    border-radius: 0px;
+    border-width: 1px;
+    box-shadow: none;
+    text-shadow: none;
+    font-family: "Source Sans Pro";
+}
+
+.ui-accordion {
+    background-color: #7e8c8f;
+}
+
+.ui-accordion .ui-accordion-header.ui-state-default a {
+    color: #fff;
+}
+
+/*================== HEADER DATATABLE */
+.ui-panel thead .ui-state-default .ui-inputfield, .ui-inputtext {
+    background-color: #758486;
+    border: none;
+    height: 19px;
+}
+
+.ui-panel thead .ui-state-default{
+    background-color: #7e8c8f;
+    text-transform: uppercase;
+    color: #fff;
+    height: 2em;
+}
+
+thead .swh-inventory{
+	background-color: #FFD300 !important; 
+	color: #7e8c8f !important;
+}
+
+.swh-inventory input{
+	background-color: #f7c80a!important; 
+	color: #7e8c8f !important;
+}
+
+.ui-corner-top {
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+}
+
+.ui-paginator.ui-paginator-bottom.ui-widget-header.ui-corner-bottom.ui-widget-header {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    border: 0 none !important;
+    font-weight: normal !important;
+}
+
+.ui-paginator.ui-paginator-bottom.ui-widget-header{
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    border: 0 none !important;
+    font-weight: normal !important;
+}
+
+/*============== END HEADER DATATABLE */
+
+.ui-panel {
+    width: 90%;
+    margin:0 auto;
+    padding: 0px !important;
+    border-radius: 0px;
+    display:block;
+    border: 0px !important;
+}
+
+.ui-panel-content.ui-widget-content{
+    padding: 0px !important;
+}
+
+.ui-panel.ui-widget.ui-widget-content.ui-corner-all.box-height{
+    background-color: #fff;
+    height: 82%;
+}
+
+/*.ui-layout-unit-content .ui-widget-content {
+    height: auto;
+}*/
+
+.ui-widget-content{
+    border: 0 !important;
+}
+
+/*================== PANEL PICKLIST */
+
+.ui-widget-content.ui-picklist-list {
+	border: 1px solid #c0c0c0!important;
+	border-radius: 0 !important;
+	height: 300px !important;
+}
+
+
+.ui-picklist .ui-picklist-filter-container .ui-icon {
+    right: 5% !important;
+    top: 7px !important;
+}
+
+.ui-picklist .ui-picklist-filter-container {
+    width: 100% !important;
+} 
+
+.swh-picklist-names .ui-picklist .ui-picklist-filter-container {
+    width: 100% !important;
+}
+
+.swh-picklist-names .ui-picklist .ui-picklist-list {
+    width: 100% !important;
+}
+
+.swh-picklist-names input {
+	width: 100% !important;
+}
+
+.ui-picklist .ui-picklist-item {
+    font-size: 0.8em !important;
+}
+
+.ui-picklist .ui-picklist-list {
+    width: 100% !important;
+}
+
+.ui-picklist .ui-picklist-filter {
+    padding-right: 5px !important;
+    width: 96% !important;
+}
+
+/*============== END PANEL PICKLIST */
+
+.ui-slider.ui-widget-content{
+    background: none repeat scroll 0 0 #f5f5f5 !important;
+    border: 1px solid #000;
+    color: #333333;
+}
+
+.ui-slider-range.ui-widget-header{
+    background-color: #7a9b3e;
+}
+
+.ui-datatable-scrollable-body::-webkit-scrollbar-thumb {
+    border-radius: 0px !important;
+    border: 0 !important;
+}
+
+/*=================== SCROLLLABLE */
+.ui-datatable-scrollable-header-box{
+    margin-right: -16px !important;
+}
+
+.ui-datatable-scrollable-body {
+    margin-right: 0px !important;
+}
+/*=============== END SCROLLLABLE */
+
+/*================================================================= END Panel */
+/*===============================================================***** FOOTER */
+.ui-layout-unit.ui-widget.ui-widget-content.ui-corner-all.ui-layout-south.footer.ui-layout-pane.ui-layout-pane-south{
+    background-color: #75C045;
+}
+
+.ui-datatable .ui-datatable-footer {
+    text-align: right !important;
+    padding: 4px 20px;
+    background-color: #fff;
+    border-radius: 0px;
+}
+/*===========================================================***** END FOOTER */
+/*==================================================================== TABLES */
+
+.ui-datatable thead th, .ui-datatable tbody td, .ui-datatable tfoot td{
+    /*    overflow: visible !important;*/
+    border-width: 0px !important;
+    border-style: none !important;
+    /*    font-size: .8em;*/
+    font-weight: normal;
+
+}
+
+.ui-datatable tbody td {
+    text-align: center !important;
+}
+
+.table-column{
+    text-align: center;
+    border: 0px !important;
+}
+
+.ui-picklist-caption.ui-widget-header {
+    background: #fff;
+    border:0px !important;
+    font-weight: normal;
+    border-radius: 0px;
+    text-transform: uppercase;
+    font-size: .7em;
+}
+
+/* .ui-datatable-tablewrapper table thead tr {
+    height: 50px !important;
+} */
+
+.ui-outputlabel {
+    text-transform: uppercase;
+    font-size: .7em;
+    line-height: 150%;
+
+}
+
+/*.ui-datatable{
+    overflow: auto;
+}*/
+
+.ui-datatable table {
+    margin: 0px !important;
+    padding: 0px !important;
+    border-bottom: 1px solid #f9f9f9;
+}
+
+.ui-datatable .ui-column-filter {
+    width: 130px !important; /* Para exibir o nome completo do  ''Dropdown Select'' (Select One) */
+}
+
+/* Paginator */
+.ui-icon-seek-first {
+    background-position: -80px -158px;
+}
+
+.ui-icon-seek-prev {
+    background-position: -48px -158px;
+}
+
+.ui-icon-seek-next {
+    background-position: -32px -158px;
+}
+
+.ui-icon-seek-end {
+    background-position: -64px -158px;
+}
+
+/* END Paginator */
+/*=================================================================END TABLES */
+/*===================================================================== TREES */
+.ui-treenode-label.ui-corner-all{
+    text-transform: uppercase;
+    font-size: .7em;
+}
+.ui-treenode-children {
+    font-size: 1em;
+}
+
+.ui-treenode-content {
+    height: 25px !important;
+    display: block;
+}
+/*================================================================= END TREES */
+/*==================================================================== POPUPS */
+.ui-dialog.ui-widget-content .ui-dialog-titlebar {
+    background-color: #949599;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Source Sans Pro Light";
+    font-size: 29px;
+}
+
+.ui-dialog {
+    border-radius: 0px !important;
+}
+
+.ui-dialog-content {
+    border-radius: 0px !important;
+}
+
+.ui-dialog-content p {
+    font-size: 1.5em;
+}
+
+p .ui-icon {
+    background-image: none !important;
+    height: auto;
+    width: auto;
+}
+
+
+/*================================================================ END POPUPS */
+/*================================================================== MESSAGES */
+.ui-messages-error, .ui-message-error {
+    background-color: #ac2925 !important;
+    border-color: initial !important;
+    font-size: .8em !important;
+    font-family: "Source Sans Pro Light" !important;
+    border-radius: 0px !important;
+    color: #fff !important;
+    margin: 0px !important;
+    text-transform: capitalize;
+}
+
+.ui-messages-info, .ui-message-info {
+    background-color: #50595a !important;
+    border-color: initial !important;
+    color: #fff !important;
+}
+
+.ui-messages-info span::before {
+	font-family: "wms-glyphicons" !important;
+	content: "\e800" " " !important;
+	color: #fff !important;
+}
+
+.ui-messages-info-summary, .ui-messages-warn-summary, .ui-messages-error-summary, .ui-messages-fatal-summary, .ui-message-info-summary, .ui-message-warn-summary, .ui-message-error-summary, .ui-message-fatal-summary {
+    font-weight: normal !important;
+    color: #fff !important;
+}
+
+.ui-messages-info-icon, .ui-messages-warn-icon, .ui-messages-error-icon, .ui-messages-fatal-icon, .ui-message-info-icon, .ui-message-warn-icon, .ui-message-error-icon, .ui-message-fatal-icon {
+    background: none !important;
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: none !important;
+
+
+}
+.ui-messages-error, .ui-message-error::before{
+    font-family: "wms-glyphicons" !important;
+    content: "\e809" !important;
+    color: #fff !important;
+}
+
+.ui-state-error {
+    background-color: initial !important;
+}
+
+.ui-messages-error-summary::before{
+    font-family: "wms-glyphicons" !important;
+    content: "\e809" !important;
+    color: #fff !important;
+    margin-right: .5em;
+}
+
+/*growl*/
+.ui-growl {
+    border-radius: 0px !important;
+    font-family: "Source Sans Pro Light" !important;
+}
+
+.ui-corner-all {
+    border-radius: 0 !important;
+}
+
+.ui-growl-item-container {
+    opacity: .9 !important;
+    background: #50595a;
+}
+
+.ui-growl-item {
+    padding: 15px !important;
+}
+
+.ui-growl-item::before{
+    font-family: "wms-glyphicons" !important;
+    content: "\e877" !important;
+    color: #fff !important;
+    font-size: 1.5em;
+}
+
+.ui-growl-image {
+    display: none !important;
+}
+
+.ui-growl-title {
+    font-weight: normal !important;
+    padding: 0 !important;
+    text-transform: capitalize !important;
+}
+
+.ui-shadow {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6) !important;
+}
+
+/*============================================================== END MESSAGES */
+
+/*====================================================================== MENU */
+.wms-menu ul li a, .wms-menu ul li.ui-menuitem-active a, .wms-menu ul li a.ui-state-hover {
+    margin-right: .45em !important;
+}
+
+.ui-widget-content .ui-menu-list .ui-menu-child {
+    font-size: .9em !important;
+}
+
+.ui-menu.ui-widget li > .ui-menuitem-link.ui-state-hover {
+    background-color: #7a9d3e;
+    background-image: linear-gradient(to bottom, #7a9d3e, #7a9d3e) !important;
+}
+
+.ui-layout-pane-north .ui-widget-content {
+    background: none;
+}
+
+.ui-menu.ui-menubar {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+.ui-menu {
+    padding: 0 !important;
+}
+
+.ui-menuitem-text{
+    font-size: 1.2em;
+}
+
+.ui-menu .ui-menu-parent .ui-menu-child {
+    width: auto !important;
+    min-width: 12.2em;
+}
+
+.ui-menu .ui-menuitem-text {
+	color: #fff;
+	text-transform: uppercase;
+}
+/*================================================================== END MENU */

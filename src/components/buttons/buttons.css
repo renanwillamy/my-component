@@ -5,3 +5,8 @@
 .action-btn-padding {
     padding: 1px !important;
 }
+
+.custom-color {
+    background: red;
+    color: white;
+}
